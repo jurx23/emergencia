@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js" defer></script>
+        <title>Emergência</title>
+    </head>
+    <body>
+        <main>
+            <div class="container shadow p-3 mb-5 bg-white rounded">
+                <h1>EM CASO DE EMERGÊNCIA!</h1>
+                <p>Caso eu esteja inconciente ou incapaz de me comunicar utilizar os dados abaixo.</p>
+                <img src="img/Foto.jpg" alt="Juliano Adail Gonçalves" title="Juliano Adail Gonçalves" id="img">
+                <h2 class="card-title">Juliano Adail Gonçalves</h2>
+                <hr>
+                <fieldset>
+                    <legend>Informações pessoais</legend>
+                    <div class="form-group">
+                        <label class="negrito">Nacionalidade:</label>
+                        <span id="nacionalidade">Brasileiro</span>
+                        <img src="img/brazil_flags_flag_9043.png" class="icones" alt="Brasil" title="Brasil">
+                    </div>
+                    <div class="form-group">
+                        <label class="negrito">Sexo:</label>
+                        <span id="sexo"></span>
+                        <img src="img/sex-male_87129.png" class="icones" alt="Sexo Masculino" title="Sexo Masculino">
+                    </div>
+                    <div class="form-group">
+                        <label class="negrito">Data de Nascimento:</label>
+                        <span id="dtNascimento"></span>
+                        <span id="idade"></span>
+                    </div>
+                    <div class="form-group">
+                        <label class="negrito">Residência:</label>
+                        <span id="residencia"></span>
+                    </div>
+                </fieldset>
+                <hr>
+                <fieldset>
+                    <legend>Informações Médicas</legend>
+                    <div class="form-group">
+                        <label class="negrito">Convênio Médico:</label>
+                        <a href="https://www.segurosunimed.com.br/" target="_blank" title="Site Unimed" id="convenioMedico"></a>
+                    </div>
+                    <div class="form-group">
+                        <label class="negrito">Carteirinha:</label>
+                        <span id="carteirinha"></span>
+                    </div>
+                    <div class="form-group">
+                        <label class="negrito">Cartão Nacional de Saúde:</label>
+                        <span id="sus"></span>
+                    </div>
+                    <div class="form-group">
+                        <label class="negrito">Alergias:</label>
+                        <span id="alergias"></span>
+                    </div>
+                    <div class="form-group">
+                        <label class="negrito">Pressão Arterial Alta:</label>
+                        <span id="pressao"></span>
+                    </div>
+                    <div class="form-group">
+                        <label class="negrito">Doenças:</label>
+                        <span id="doencas"></span>
+                    </div>
+                    <div class="form-group">
+                        <label class="negrito">Tipo Sanguíneo:</label>
+                        <a href="https://drive.google.com/file/d/1Vl5I6i-4BEug6RCUAbqbSu0FrKxG2QRt/view?usp=sharing" target="_blank" id="tipoSanguineo"></a>
+                    </div>
+                </fieldset>
+                <hr>
+                <fieldset>
+                    <legend>Contatos de Emergência</legend>
+                    <table class="table table-striped">
+                        <thead>
+                            <th scope="col" class="col-3">Nome</th>
+                            <th scope="col" class="col-3">Parentesco</th>
+                            <th scope="col" class="col-3">Telefone</th>
+                            <th scope="col" class="col-3">Rede social</th>
+                        </thead>
+                        <tbody id="contatosEmergencia">
+                            <tr>
+                                <th>Marisa dos Santos</th>
+                                <td>Tia Materna</td>
+                                <td>
+                                    <a href="https://api.whatsapp.com/send?phone=5516996212619" target="_blank" title="Whatsapp"><img src="img/whatsapp.png" class="icones" alt="Whatsapp"> +55 (16) 9 9621-2619</a>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th> Aurea dos Santos</th>
+                                <td>Avó Materna</td>
+                                <td>+55 (16) 2221-0672</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>Fernanda Ferraz</th>
+                                <td>Namorada</td>
+                                <td>
+                                    <a href="https://api.whatsapp.com/send?phone=5511981533485" target="_blank" title="Whatsapp"><img src="img/whatsapp.png" class="icones" alt="Whatsapp"> +55 (11) 9 8153-3485</a>
+                                </td>
+                                <td>
+                                    <a href="https://www.instagram.com/fernandaferrazbr/?hl=pt-br" target="_blank" title="Instagram"><img src="img/instagram.png" class="icones" alt="Instagram"> fernandaferrazbr</a> 
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+            </div>
+        </main>
+    </body>
+</html>
