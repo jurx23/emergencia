@@ -6,12 +6,11 @@ const convenioMedico = document.getElementById('convenioMedico');
 const carteirinha = document.getElementById('carteirinha');
 const sus = document.getElementById('sus');
 const alergias = document.getElementById('alergias');
-const pressao = document.getElementById('pressao');
 const doencas = document.getElementById('doencas');
 const tipoSanguineo = document.getElementById('tipoSanguineo');
 
 function calculaIdade() {
-    const dataNascimento = new Date(1993,2,23)
+    const dataNascimento = new Date(1993,2,23);
     const dataAtual = new Date();
     
     let anos = dataAtual.getFullYear() - dataNascimento.getFullYear();
@@ -33,16 +32,15 @@ function calculaIdade() {
 
 onload = () => {
 
-    sexo.innerText = 'Masculino'
+    sexo.innerText = 'Masculino';
 
     calculaIdade();
 
     residencia.innerText = 'São Bernardo do Campo - SP';
     convenioMedico.innerText = 'Unimed';
-    carteirinha.innerText = '0 994 8628 50282400-7'
+    carteirinha.innerText = '0 994 8628 50282400-7';
     sus.innerText = '898002941323505';
     alergias.innerText = 'Não';
-    pressao.innerText = 'Não';
     doencas.innerText = 'Rinite Alérgica';
     tipoSanguineo.innerText = 'O+';
 }
